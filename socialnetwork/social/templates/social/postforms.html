@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <style>
+        .main{
+            width: 320px;
+            height: 200px;
+            border-radius: 10px;
+            border: 1px black solid;
+            margin-bottom: 10px;
+            text-align: center;
+            margin:0 auto;
+
+        }
+        .body{
+            width: 20px;
+            height: 50px;
+            border-radius: 5px;
+            padding-left: 20px; 
+            margin-bottom: 10px;
+           
+    
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h4>Tạo bài viết</h4>
+        </div>
+        <div class="body">
+            <input type="text" placeholder="Bạn đang nghĩ gì">
+            {% block home %}
+
+            {% endblock home %}
+        </div>
+    </div>
+</body>
+</html>

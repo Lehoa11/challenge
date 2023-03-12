@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #cccccc;
+            background: #fff;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        
+        .main{
+            display: flex;
+            margin-top: 60px;
+            background: #f5f5f5;
+        }
+        .logo{
+            width: 100%;
+            height: 50px;
+            background: #fff;
+            position: fixed;  
+        }
+        .Homeicon{
+            
+            margin-left: 50%;
+        }
+        img{
+            border-radius: 50%;
+            width: 20px;
+        }
+        .left{
+            width: 25%;   
+            overflow: hidden;   
+            background: #f5f5f5;
+            padding: 20px 5px 5px 10px; 
+            
+            
+        }
+        .center{
+            width: 50%;
+            height: auto;
+            padding: 20px 20px 0 20px;
+            background: #f5f5f5;
+          
+        }
+        .center2{
+           
+            align-items: center;
+        }
+        .center1{
+           
+            align-items: center;
+        }
+        .reght{
+            width: 25%;
+            background: #f5f5f5;  
+            margin-top: 10px;
+        }
+        .ct{
+            display: flex;
+            align-items: center;
+        }
+        .likeicon{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+        }
+        .like{
+            display: flex;
+            align-items: center;
+            margin-right: 100px;
+        }
+        .commets{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .cm1{
+            text-align: center;
+            float: left;
+        }
+        .cm2{
+            text-align: center;
+        
+        }
+        .input{
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        h4{
+            float: right;
+            margin-right: 430px;
+        }
+        .name{
+            margin-top: 20px;
+        }
+        
+        
+        
+        
+        
+        
+        
+           
+        
+
+    </style>
+
+    <link rel="stylesheet" href="Hp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HP</title>
+</head>
+<body>
+  <div class="Logo">
+    <div class="Homeicon">
+        <i class="fa-solid fa-house" style="font-size:48px;color:rgb(14, 80, 180);"></i>
+    </div>
+    <div class="main">
+        <div class="left">
+            <img src="Anhdaidien.jpg">
+            <input class="input" type="text" placeholder="Tìm kiếm">
+        </div>
+        <div class="center">
+            <div class="center1">
+
+                <img src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG1G1EtwmqbiNZb3a-ZolUkrLiJlOV258tTKjNtwKxI1R1kkzuvkPa5gd2eyL7p3Oqaz7eJe2iMMRpRYCsmhUADucAk2w2axcf9iZiZbwcWKxh0tymFO1VcoT2x5tlzGSSUaVyPM2oMOzO7OqapMlEaDzelSMZY0FYOSxpnWtwzSWiR8iq4CX0FbX4WS8DxfFNByqq8vmqmJdRIfPnVz4RncqLbiuC3z6J1EuoD-MfUDRbM5u9pv8MX4walUCFy25dsZfRYFw5OUtH6s_2YY0_hw=/Chu-cho-Anuko-noi-tieng-tren-mang-xa-hoi.jpg?errorImage=false" alt="">
+                <a href="postforms.html"><input class="input" type="text" placeholder="Bạn đang nghĩ gì?">
+                </a>
+                {% block home %}
+
+                {% endblock home %}
+            </div>
+            <div class="center2">
+                <div class="name">
+                 <img src="Anhdaidien.jpg">
+                 <h4>Lê Thế Hòa</h4>
+                </div>
+                <hr>
+                <p>Đội ngũ recruiter nhà Rikkei Japan đang phủ sóng trên mọi mặt trận, 500 anh chị em IT inbox để chúng mình được đón mọi người về nhé.
+                ★ Tại Tokyo
+                3 Bộ phận phát triển System Development (SD), System Solution(SS), Business Design (BD) phủ dự án từ Chứng khoán, Fintech, Bán lẻ, BPO, Infra (AWS, Azure, GCP), Logistic, Năng lượng, AI, IoT, Lowcode,... phát triển dự án từ 下流工程 cho đến 上流工程 (Bộ phận Business Design chuyên phụ trách công đoạn thiết kế)
+                Cần tuyển dụng ngay & luôn các ngôn ngữ:
+                PHP / C++ / Flutter / Android / Typescript 
+                ★ Tại Osaka 
+                Chi nhánh đang phát triển liên tục với sự dẫn dắt của giám đốc người Nhật, có môi trường để đào tạo với các bạn tiếng Nhật tốt nhưng có nguyện vọng được học sâu hơn về coding 
+                ❗️15 Vị trí SE/BRSE/High Level BrSE cho tất cả các ngôn ngữ backend cần tuyển dụng từ giờ cho tới tháng 12/2022 ❗️
+                ★ Tại Nagoya 
+                Chi nhánh với đội ngũ keymember mạnh về kỹ thuật & rất nhiều khách hàng tiềm năng cũng như cơ hội career path dành cho các thành viên join vào ở giai đoạn này 
+                ❗️5 Vị trí SE/BRSE/High Level BrSE cho tất cả các ngôn ngữ backend cần tuyển dụng từ giờ cho tới tháng 12/2022 ❗️
+                ★ Tại Fukuoka
+                Vùng đất mới của Rikkei Japan đang có sự phát triển chóng mặt về số lượng nhân sự. Phỏng vấn & có offer trong 3 ngày làm việc, có chế độ kaiwa với giáo viên người Nhật để đẩy mạnh khả năng ngôn ngữ dành cho các bạn mạnh về tech nhưng vẫn còn yếu về ngoại ngữ. 
+                ❗️5 Vị trí SE/BRSE/High Level BrSE cho tất cả các ngôn ngữ backend cần tuyển dụng từ giờ cho tới tháng 12/2022 ❗️
+                Gửi CV tới: hr.japan@rikkeisoft.com hoặc inbox mình để trao đổi chi tiết nhé 
+                #RikkeiJapan 
+                #IT
+                #TokyoOsakaNagoyaFukuoka
+                #Tuyendunglientuc
+                #SEBrSEPMDeliveryManagerSales
+                #Outsourcing
+                #NangtamgiatriViet</p>
+                <hr>
+                <div class="comments">
+                  <p class="cm1">Nguyễn Văn A và 7 người khác</p>
+                  <p class="cm2">1commen</p>
+                 </div>
+                <hr>
+                <div class="likeicon">
+                    <div class="like">
+                       <i class="fa-solid fa-thumbs-up activi"></i>
+                       <p>like</p>
+                    </div>
+                    <div class="like">
+                       <i class="fa-solid fa-message"></i>
+                       <p>Comments</p>  
+                    </div>                 
+                </div>
+                <hr>
+                <img src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG1G1EtwmqbiNZb3a-ZolUkrLiJlOV258tTKjNtwKxI1R1kkzuvkPa5gd2eyL7p3Oqaz7eJe2iMMRpRYCsmhUADucAk2w2axcf9iZiZbwcWKxh0tymFO1VcoT2x5tlzGSSUaVyPM2oMOzO7OqapMlEaDzelSMZY0FYOSxpnWtwzSWiR8iq4CX0FbX4WS8DxfFNByqq8vmqmJdRIfPnVz4RncqLbiuC3z6J1EuoD-MfUDRbM5u9pv8MX4walUCFy25dsZfRYFw5OUtH6s_2YY0_hw=/Chu-cho-Anuko-noi-tieng-tren-mang-xa-hoi.jpg?errorImage=false" alt="">
+
+                <input class="input" type="text" placeholder="Write a commnen...">
+
+            </div>
+
+        </div>
+        <div class="reght">
+            <h2>Contacts</h2>
+            <div class="ct">
+                <img src="Anhdaidien.jpg">
+                <p>Nguyen Van A</p>
+            </div>
+            <div class="ct"> 
+                <img src="Anhdaidien.jpg">
+                <p>Nguyen Van A</p>
+            </div>
+            <div class="ct">
+                <img src="Anhdaidien.jpg">
+                <p>Nguyen Van A</p>
+            </div>
+            <div class="ct">
+                <img src="Anhdaidien.jpg">
+                <p>Nguyen Van A</p>
+            </div>
+            <div class="ct">
+                <img src="Anhdaidien.jpg">
+                <p>Nguyen Van A</p>
+            </div>
+            <div class="ct">
+                <img src="Anhdaidien.jpg">
+                <p>Nguyen Van A</p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+</body>
+</html>

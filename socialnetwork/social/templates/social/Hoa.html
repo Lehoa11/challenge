@@ -1,0 +1,65 @@
+<div style="width:300px; height:300px;border:1px solid grey;border-radius:10px;text-align:center;margin:0 auto" class="row justify-content-center">
+  <div class="col-md-6 col-sm-12">
+    <form class="signup" id="signup_form" method="post" action="/accounts/signup/">
+      <input type="hidden" name="csrfmiddlewaretoken" value="kx4exzODZXxYH2G0vYkZmz0nFNFbcP3XQV8PE7UVCZbMmKqCxra5ubH5GnUIpuMZ">
+  
+    <label style="float:left;padding-left:45px" for="id_email">E-mail:</label>
+ <br>
+      <input style="width:200px; height:40px;border:1px solid grey;border-radius:5px;padding-left:20px" type="email" name="email" placeholder="E-mail address" autocomplete="email" required="" id="id_email">
+      
+ 
+      <br>
+    <label style="float:left;padding-left:45px" for="id_username">Username:</label>
+    <br>
+      
+      <input style="width:200px; height:40px;border:1px solid grey;border-radius:5px;padding-left:20px" type="text" name="username" placeholder="Username" autocomplete="username" minlength="1" maxlength="150" required="" id="id_username">
+
+      <br>
+    <label style="float:left;padding-left:45px" for="id_password1">Password:</label>
+    
+    <br>
+      <input style="width:200px; height:40px;border:1px solid grey;border-radius:5px;padding-left:20px" type="password" name="password1" placeholder="Password" autocomplete="new-password" required="" id="id_password1">
+
+      <br>
+      <br>
+   
+    
+      
+    
+      <div class="d-grid gap-2">
+        <button style="width:200px; height:40px;border:1px solid grey;border-radius:5px ; padding-left:20px;background-color:#167bff;color:white"  class="mt-3 btn btn-dark btn-block" type="submit">Sign Up »</button>
+      </div>
+    </form>
+  </div>
+</div>
+  
+
+
+
+
+   <form class="login" method="POST" action="/accounts/login/">
+    <br>
+    <div class="login" style="width:300px; height:300px;border:1px solid grey;border-radius:10px;text-align:center;margin:0 auto">
+   <input type="hidden" name="csrfmiddlewaretoken" value="Pm7FEAcL0lk3bWc0pTm8xJjQgHSjCP3VBsNWUv1wijH2IQTPL8QmlBz9bffu9uGx">
+   <br>
+  
+   <label style="float:left;padding-left:45px" for="id_login">Username:</label>
+
+   <br>
+   <input style="width:200px; height:40px;border:1px solid grey;border-radius:5px;padding-left:20px" type="text" name="login" placeholder="Username" autocomplete="username" maxlength="150" required="" id="id_login">
+   <br>
+    <br>
+   <label style="float:left;padding-left:45px" for="id_password">Password:</label>
+
+    <br>
+     <input style="width:200px; height:40px;border:1px solid grey;border-radius:5px ; padding-left:20px;" type="password" name="password" placeholder="Password" autocomplete="current-password" required="" id="id_password">
+     <br>
+
+     <br>
+ 
+    <button style="width:200px; height:40px;border:1px solid grey;border-radius:5px ; padding-left:20px;background-color:#167bff;color:white" class="btn btn-dark primaryAction" type="submit">Sign In</button>
+  
+
+  </div>
+  </form>
+
